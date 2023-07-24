@@ -1,0 +1,94 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 1.4 rem;
+    margin-bottom: 30px;
+    user-select: none;
+}
+.image img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-right: 5px solid aqua;
+    /*margin-bottom: 1rem;*/
+}
+.image:before{
+    content:open-quote;
+    display:inline-block;
+    vertical-align:top;
+    color:#fff;
+    font-size: 3.5em;
+    position: relative;
+    right: -25px;
+    background: aqua;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.underline{
+    content:"";
+    position: relative;
+    width: 20%;
+    height: 3px;
+    background:aqua;
+    top: -12px;
+    left: 42%;
+    border-radius: 5px;
+
+}
+.reviw{
+    background-color:#fff;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+#person-name{
+    user-select: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+#work{
+    user-select: none;
+    color:aqua;
+    line-height: 0;
+    text-transform: capitalize;
+}
+#info{
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.random-btn{
+    user-select: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    border-color: aqua;
+    text-transform: capitalize;
+    color: aqua;
+    cursor: pointer;
+}
+.prev, 
+.next{
+    color:aqua ;
+    border: none;
+    background: none;
+    margin-right:8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+
